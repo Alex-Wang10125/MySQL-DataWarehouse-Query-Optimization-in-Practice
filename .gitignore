@@ -1,0 +1,22 @@
+# Credentials
+.env
+
+# Generated data files
+data/*.csv
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# OS
+.DS_Store
+
+# Agent / internal planning (not project deliverables)
+.claude/
+ARCHIVE_INDEX.md
+reports/micro_plan_*.md
+reports/archive_*.md
+
+# Empty/unused
+modules/
