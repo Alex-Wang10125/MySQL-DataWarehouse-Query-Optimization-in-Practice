@@ -54,7 +54,7 @@ A MySQL 8.4 query performance optimization project covering **index optimization
 |---|---|---|---|
 | 1 | **Index Failure Diagnosis** | 5 | 6 indexes (134 MB), 10× ~ 100,000× improvement |
 | 2 | **JOIN Strategy Optimization** | 4 | 3 JOIN indexes (76 MB), NLJ+ref beats Hash Join, 4× ~ 212× |
-| 3 | **Deep Pagination** | 4 | Cursor pagination 0.079ms (~59,000×), deferred join 4~6× |
+| 3 | **Deep Pagination** | 4 | Cursor pagination 0.079ms (59,000×), deferred join 4~6× |
 | 4 | **Lock Contention & Deadlock** | 3 | Gap Lock / AB-BA Deadlock / Long transaction reproduced & fixed |
 | 5 | **Stale Statistics & Plan Drift** | 3 | ANALYZE TABLE + Histogram fix 12.9× underestimation |
 | 6 | **Subquery Rewrite** | 4 | DEPENDENT SUBQUERY 6× improvement, NOT IN NULL trap fixed |
